@@ -19,7 +19,7 @@ jobs:
     - name: Build with Maven
       run: mvn clean compile
       
-  security check :
+  security_check :
   runs-on: ubuntu-latest
   steps:
   - uses: actions/checkout@v4
